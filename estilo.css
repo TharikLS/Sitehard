@@ -1,0 +1,36 @@
+
+body{
+    background: rgb(255,0,78);
+    background: radial-gradient(circle, rgba(255,0,78,0.7567401960784313) 0%, rgba(0,0,0,1) 100%);
+}
+
+h1{
+    font-family:sans-serif;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+.table{
+    margin: 0 auto;
+    background-color: rgb(255, 230, 0);
+    border-color: rgb(0, 0, 0);
+}
+td{
+    background-color: rgb(255, 166, 0);
+}
+
+.imagem{
+    
+    width: 200px;
+    height: 200px;
+    align-items: center;
+}
+/* Aqui farei uma div para centralizar a imagens*/
+div{
+    text-align: center;
+    margin:auto;
+}
+.imagem2{
+    width: 30px;
+    height: 30px;
+}
