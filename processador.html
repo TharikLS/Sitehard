@@ -1,15 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Processador</title>
     <link rel="stylesheet" href="css/estilo.css">
 </head>
+
 <body>
-   <div> 
-    <img class="imagem" src="imagens/processador.jpg">
-</div>
+    <div>
+        <img class="imagem" src="imagens/processador.jpg">
+    </div>
     <table class="table" border="1">
         <tr>
             <th>Modelo</th>
@@ -23,9 +25,17 @@
             <td>Intel</td>
             <td>16</td>
             <td>24</td>
-             <td>LGA 1700</td>
-</tr>
+            <td>LGA 1700</td>
+        </tr>
+        <button onclick="addToCart('Processador', 1350, 'imagens/processador.jpg')">
+            Adicionar ao Carrinho
+        </button>
+        <br>
+        <br>
+        <a href="/cart.html">Ir ao Carrinho</a>
     </table>
     <a href="index.html">Página inicial</a>
+    <script src="cart.js"></script>
 </body>
+
 </html>
